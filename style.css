@@ -1,0 +1,189 @@
+@media screen and (min-width: 100px) and (max-width: 4000px)  {
+  
+
+    body {
+      margin: 0;
+      padding: 0;
+     background-image: url(https://wallpapers.com/images/hd/carbon-fiber-background-i2j5pgqe86x7n5vw.jpg);
+     background-color: whitesmoke;
+     font-family: cursive;
+    }
+    
+    
+    form  {
+      min-width: 120;
+      width: 460px;  
+      height: 670px;
+      overflow: hidden;  
+      margin: auto;  
+      margin: 20 0 0 450px;  
+      padding: 80px;  
+      /* background: #001A33;   */
+      background-image: url(https://wallpapers.com/images/hd/carbon-fiber-background-i2j5pgqe86x7n5vw.jpg);
+      border-radius: 10px ; 
+      box-shadow: 10px 5px 5px 0px white;
+        
+    } 
+    
+    input[type=text] {
+      width: 130px;
+      -webkit-transition: width 0.4s ease-in-out;
+      transition: width 0.4s ease-in-out;
+      height: 30px;
+    }
+    
+    /* When the input field gets focus, change its width to 100% */
+    input[type=text]:focus {
+      width: 100%;
+    }
+    
+    /* Hvordan felte ser ut */
+    /* #ForNavn {
+      width: 100px;  
+      height: 30px;  
+      border: none;  
+      border-radius: 1px;  
+      padding-left: 8px;  
+    }
+    #MelNavn {
+      width: 300px;  
+      height: 30px;  
+      border: none;  
+      border-radius: 1px;  
+      padding-left: 8px;  
+    }
+    #EtNavn {
+      width: 300px;  
+      height: 30px;  
+      border: none;  
+      border-radius: 1px;  
+      padding-left: 8px;  
+    }
+    #Epost {
+      width: 300px;  
+      height: 30px;  
+      border: none;  
+      border-radius: 1px;  
+      padding-left: 8px;  
+    }
+    #Mobnr {
+      width: 300px;  
+      height: 30px;  
+      border: none;  
+      border-radius: 1px;  
+      padding-left: 8px;  
+    }
+    #injobb {
+      width: 300px;  
+      height: 30px;  
+      border: none;  
+      border-radius: 1px;  
+      padding-left: 8px;  
+    }
+    #inadres {
+      width: 300px;  
+      height: 30px;  
+      border: none;  
+      border-radius: 1px;  
+      padding-left: 8px;  
+    }
+    #inpnr {
+      width: 300px;  
+      height: 30px;  
+      border: none;  
+      border-radius: 1px;  
+      padding-left: 8px;  
+    } */
+    /* hvor den slutter */
+    h2 {
+      color: antiquewhite;
+    }
+    
+    p1 {
+      float: right;
+      color: white;
+      font-size: medium;
+      size: 100px;
+    }
+    
+    #send-btn {
+      float: right;
+    
+    }
+    
+    #send-btn {
+      width: 100px;  
+      height: 30px;  
+      border: none;  
+      border-radius: 10px;  
+      padding-left: 7px;  
+      color: black;
+      background-color: green;
+    }
+    
+    #rest-btn {
+      width: 100px;  
+      height: 30px;  
+      border: none;  
+      border-radius: 10px;  
+      padding-left: 7px;  
+      color: black;
+      background-color: red;
+    }
+    
+    
+      input {
+        border: 10px, 10px, 20px, 20px;
+        border-color: aqua;
+      }
+    
+    
+     
+     select {
+      border-color: aqua;
+     }
+    
+     ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #111;
+    }
+    
+    #send-btn:hover {
+      background-color: lightgreen;
+    }
+    
+    #rest-btn:hover {
+      background-color: #FFCCCB;
+    }
+     
+    #send-btn:active {
+      background-color: #3e8e41;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+    #rest-btn:active {
+      background-color: #3e8e41;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+    
+    }

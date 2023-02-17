@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Database1</title>
+    <link rel="Website icon" type="png" 
+    href="bilder/database-512.webp">
+</head>
+<body>
+
+    <ul>
+        <li><a class="active" href="index.html">Registrer</a></li>
+        <li><a href="liste.html">Film liste</a></li>
+        <li><a href="Person.html">Personer</a></li>
+    </ul>
+
+    <form id="registrer">
+        <h2>Register</h2>
+        <div class="fram">
+        <div class="fnavn">
+            <input type="text" id="ForNavn" placeholder="Fornavn">
+
+        </div>
+        <br>
+        <div class="mnvan">
+            <input type="text" id="MelNavn" placeholder="Mellomnavn">
+            
+        </div>
+        <br>
+        <div class="envan">
+            <input type="text" id="EtNavn" placeholder="Etternavn">
+            
+        </div>
+        <br>
+        <div class="egmail">
+            <input type="text" id="Epost" placeholder="Epost">
+            
+        </div>
+        <br>
+        <div class="nr">
+            <input type="text" id="Mobnr" placeholder="Mobilnummer">
+        
+        </div>
+        <br>
+        <div class="yrke">
+            <input type="text" id="injobb" placeholder="Yrke">
+        
+        </div>
+        <br>
+        <div class="adres">
+            <input type="text" id="inadres" placeholder="Adresse">
+        
+        </div>
+        <br>
+        <div class="postnr">
+            <input type="text" id="inpnr" placeholder="Postnummer">
+            
+        </div>
+        <br>
+        <div class="Rull">
+            
+            <select type="option" id="inklasse" placeholder="Klasse">
+                <option placeholder="Klasse"></option>
+                <option value="1IMA">1IMA</option>
+                <option value="1IMB">1IMB</option>
+                <option value="1IMC">1IMC</option>
+                <option value="2IT">2IT</option>
+                <option value="2MP">2MP</option>
+            </select>
+        </div>
+        <br>
+        <div class="datp">
+            <input type="date" id="date" placeholder="Dato">
+            
+        </div>
+        <br>
+        <div class="tid">
+            <input type="time" id="tid" placeholder="Tid">
+            
+        </div>
+        <br>
+        <div>
+            <button id="send-btn" type="submit">Registrer</button>
+        </div>
+        <div>
+            <button id="rest-btn" type="reset">Reset</button>
+        </div>
+        </div>
+    </form>
+    <div id="outputID"></div>
+
+
+ 
+
+    <script type="module" src="kode.js"></script>
+</body>
+</html>
